@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Products_list</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- -------------------------------------------header--------------------------------------- -->
+<header class="header">
+	<a href="product.html">
+		<img src="images/logo.gif" alt="logo">
+	</a>
+ <div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Shop
+      <i class="my mycontent"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+          <h3>Products</h3>
+          <a href="#">Shirts</a>
+          <a href="#">T-Shirts</a>
+          <a href="#">Pants</a>
+        </div>
+        <div class="column">
+          <h3>Mobiles</h3>
+          <a href="#">Samsung</a>
+          <a href="#">Nokia</a>
+          <a href="#">Apple</a>
+        </div>
+        <div class="column">
+          <h3>Accersories</h3>
+          <a href="#">Bracelet</a>
+          <a href="#">Bags</a>
+          <a href="#">Shoes</a>
+        </div>
+      </div>
+    </div>
+  </div>  <div class="dropdown">
+    <button class="dropbtn">Official-Mercen 
+      <i class="my mycontent"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="row">
+        <div class="column">
+          <h3>Film-TV</h3>
+          <a href="#">Iron-Man</a>
+          <a href="#">Deadpool</a>
+          <a href="#">Joker</a>
+        </div>
+        <div class="column">
+          <h3>Comedy</h3>
+          <a href="#">AIB</a>
+          <a href="#">Biswas Kalyan Rath</a>
+          <a href="#">Zakir Khan</a>
+        </div>
+        <div class="column">
+          <h3>Music</h3>
+          <a href="#">Divine</a>
+          <a href="#">Nucleya</a>
+          <a href="#">Supersonic</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="dropdown">
+    <button class="dropbtn">Artists
+      <i class="my mycontent"></i>
+    </button>
+    <div class="dropdowncont">
+            <a href="#">Sell Your ArtWorks</a>
+            <a href="#">Our Artists</a>
+
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Our Team
+      <i class="my mycontent"></i>
+    </button>
+  </div> 
+  <div class="dropdown">
+    <img class="dropimgs" src="images/cart.png" alt="My_Cart" width="30px" height="30px">
+    <img class="dropimg" src="images/ContactUs.png" alt="contact" width="30px" height="30px">
+    <button class="dropbt" type="submit">Go</button>
+    <input type="text" placeholder="Search..">
+  </div>
+</div>
+</header>
+<!-- ------------------------------------------/header--------------------------------------- -->
+
+
+<!-- -----------------------------------------Container--------------------------------------- -->
+
+
+<div class="banner">
+   <img src="images/banner.jpg" alt="fashion_img">
+</div>
+<div class="pagination">
+  <a href="#">&raquo;</a>
+  <a  href="product2.html">2</a>
+  <a class="active" href="product.html">1</a>
+  <a href="#">&laquo;</a>
+</div>
+<div class="container">
+<div class="sidenav">
+
+  <button class="dropdown-btn">Size 
+  </button>
+  <div class="dropdown-container">
+
+
+<label id="1" class="containers">XS
+  <input type="checkbox" >
+  <span class="checkmark"></span>
+</label>
+
+<label id="2" class="containers">S
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label id="3" class="containers">M
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label id="4" class="containers">L
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label id="5" class="containers">XL
+    <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<label id="6" class="containers">XXL  
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+
+  </div>
+
+   <button class="dropdown-btn">Themes
+  </button>
+  <div class="dropdown-container">
+    <button class="dropdown-btn">Super-Heroes
+  </button>
+  <div  class="dropdown-container">
+   <label id="7" class="containers">IRON MAN
+  <input type="checkbox" >
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="8" class="containers">WOLVERINE
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="9" class="containers">DEADPOOL
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+
+  </div>
+     <button class="dropdown-btn">Cartoons
+  </button>
+  <div class="dropdown-container">
+  <label id="10" class="containers">TOM & JERRY
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="11" class="containers">SPONGEBOB
+    <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="12" class="containers">OGGY
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  </div>
+
+     <button class="dropdown-btn">Sports
+  </button>
+  <div class="dropdown-container">
+    <label id="13" class="containers">MUMBAI INDIANS
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="14" class="containers">RCB
+    <input type="checkbox">
+  <span class="checkmark"></span>
+</label><br /><br />
+
+<label id="15" class="containers">KKR
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+  </div>
+  </div>
+
+<button class="one" onclick="Apply()">Apply</button>
+</div>
+<div class="product">
+    <div id="xs" class="card">
+        <img src="images/xs.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>White T-shirt</h1>
+        <p class="price">499</p>
+        <p>It is Plain White T-shirts</p>
+        <a href="xs.html">
+        <p><button>More Info..</button></p>
+      </a>
+     </div>
+    <div id="s" class="card">
+        <img src="images/s.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Red T-shirts</h1>
+        <p class="price">499</p>
+        <p>It is Plain Red t-Shirts.</p>
+        <a href="s.html">
+        <p><button>More Info..</button></p>
+      </a>
+     </div>
+     <div id="m" class="card">
+        <img src="images/m.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Harry potter</h1>
+        <p class="price">499</p>
+        <p>Officail Harry potter T-shirts</p>
+        <a href="hp.html">
+        <p><button>More Info..</button></p>
+      </a>
+     </div>
+     <div id="iron" class="card">
+        <img src="images/iron1.jpg" alt="Denim Jeans"  style="width:90%">
+        <h1>Iron man T-shirts</h1>
+        <p class="price">499</p>
+        <p>Its is Iron Man Printed T-shirts</p>
+      <a href="ironman.html">
+        <p><button>More Info..</button></p>
+      </a>
+     </div>
+     <div id="wolf" class="card">
+        <img src="images/wol1.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Wolverine T-shirts</h1>
+        <p class="price">499</p>
+        <p>its is Wolverine Printed T-shirts</p>
+        <p>
+          <a href="wolf.html"><button>More Info..</button></a></p>
+     </div>
+      <div id="dead" class="card">
+        <img src="images/dead.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Deadpool T-shirt</h1>
+        <p class="price">499</p>
+        <p>Its is Deadpool Printed t-shirts</p>
+        <a href="dead.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>   
+   <div id="tj" class="card">
+        <img src="images/tj.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Tom & Jerry</h1>
+        <p class="price">499</p>
+        <p>Tom & jerry T-Shirts</p>
+       <a href="tj.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>
+     <div id="bob" class="card">
+        <img src="images/bob.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Sponge bob</h1>
+        <p class="price">499</p>
+        <p>Sponge bob T-shirts Printed</p>
+      <a href="bob.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>
+      <div id="oggy" class="card">
+        <img src="images/oggy.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Oggy & Cock..</h1>
+        <p class="price">499</p>
+        <p>Oggy & Jack Printed T-shirts.</p>
+         <a href="oggy.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>  
+     <div id="mi" class="card">
+        <img src="images/mi.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>Mumbai Indians</h1>
+        <p class="price">499</p>
+        <p>Its Mumbai Indians t-shirts</p>
+         <a href="mi.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>
+     <div id="rcb" class="card">
+        <img src="images/rcb.jpg" alt="Denim Jeans" style="width:70%">
+        <h1>RCB T-shirts</h1>
+        <p class="price">499</p>
+        <p>Rcb official Mercen...</p>
+        <a href="rcb.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>
+      <div id="kkr" class="card">
+        <img src="images/kkr.jpg" alt="Denim Jeans" style="width:80%">
+        <h1>KKR T-shirts</h1>
+        <p class="price">499</p>
+        <p>its Kkr t-shirts</p>
+        <a href="kkr.html">
+        <p><button>More Info..</button></p>
+        </a>
+     </div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------/container------------------------------------- -->
+
+
+<!-- -------------------------------------------Footer--------------------------------------- -->
+<footer class=footer>
+  <div class="foot">
+    <h3 class="title">Need Help</h3>
+      <ul>
+           <li>Contact Us</li>
+           <li>FAQ</li>
+           <li>Shipping And Tracking</li>
+           <li>Returns and Exchange</li>
+           <li>T&Cs</li>
+      </ul>
+  </div>
+  <div class="foot">
+     <h3 class="title">Company</h3>
+      <ul>
+           <li>About Us</li>
+           <li>Schools and Colleges</li>
+           <li>Bulk and Custom</li>
+           <li>Careers</li>
+      </ul>
+  </div>
+	<div class="foot">
+    <h3 class="title">More Info</h3>
+      <ul>
+           <li>My Account</li>
+           <li>Gift Vouchers</li>
+           <li>My Team</li>
+           <li>Sell Your Artwork</li>
+      </ul> 
+  </div>
+  <div class="foot">
+    <img src="images/cod.png" alt="cash_on_delivery" height="40" width="40"><strong>Cash On Delivery</strong><br /><br />
+    <img src="images/Easy.png" alt="Easy Returns" height="40" width="40"><strong>Easy Returns</strong>
+  </div>
+  <div class="foots">
+  <div class="social">
+    <strong>Follow Us:-</strong>
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="images\fb.jpg" title="facebook" height="30" width="30">
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+      <img src="images\twitter.jpg"title="twitter" height="30" width="30">
+    </a>
+    <a href="https://www.gmail.com" target="_blank">
+      <img src="images\Gmail.jpg" title="gmail" height="30" width="30">
+    </a>
+    <a href="https://www.linkedin.com" target="_blank">
+      <img src="images\link.jpg" title="linkedin" height="30" width="30">
+    </a>
+  </div>
+  </div>
+  <button class="collapsible"><strong>Navigation Links</strong></button>
+<div class="content">
+  <div class="menu">
+  <div class="links">
+  <a href="#">Home</a><br /><br />
+  <a href="#">About Us</a><br /><br />
+  <a href="#">Contact Us</a> <br /><br />
+  </div>
+  
+</div>
+</div>
+ <button class="collapsible"><strong>About T-Shirts</strong></button>
+<div class="content">
+  <p> If you're a fan of the biggest movies and TV shows in the world, we're here to make your dreams come true. So if you're looking for superhero t-shirts online and want to be as cool as Batman, or if you love WWE t-shirts and dream of showing off your moves in a wrestling ring, or if you've always wanted to be a wizard and want to flaunt some magical Harry Potter t-shirts, add our trendy and stylish t-shirts to your wardrobe. We sell kickass, original, official round neck t-shirts online of WWE, Marvel (Black Panther, Iron Man, Hulk, Captain America, Thor), DC Comics (Batman, Superman, Green Lantern, Flash), Harry Potter, Lord of the Rings, Looney Tunes, Friends, The Big Bang Theory, Star Wars, Scooby Doo, The Flintstones, and Mortal Kombat. For those who prefer something more basic, checkout our wide range of plain t-shirts- white tees, black tees, blue tees, and many other colours. We ship across India and also have Cash on Delivery (COD) available. We have a range of branded unisex t-shirts online in all sizes- XXS, XS, S, M, L, XL, XXL for a well-fitting experience. If you're tall or short or wide or thin, our fashionable and comfortable t-shirts are all you need. So the next time you want to shop online for some casual 100% cotton t-shirts or a cool graphic t-shirt to gift a friend, just remember, there's something for everyone at The Souled Store. Love our t-shirts, and want to get something personalised? Don’t worry, just send us your design and we’ve got you covered! Pun totally intended. <br /><br />
+
+    Fun Facts About Our Tees<br /><br />
+    - Our graphic t-shirts work best on a first date and we guarantee you a second date.<br /><br />
+    -Our adorable t-shirts were tested on animals, they loved them.<br /><br />
+    -Our designer t-shirts work without pants as well, you just need confidence.<br /><br />
+    -People who wear our super cool t-shirts are known to be 45% happier.</p>
+</div>
+<div class="section">
+<div class="s1">
+  <strong>100% Secure Payment:</strong>
+  <img src="images/Card.jpg" alt="All Accepted card" height="30" width="250">
+</div>
+<div class="s2">
+   <strong>Shipping Partner:</strong>
+  <img src="images/ecom.png" alt="Shipping partners" height="30" width="150">
+</div>
+</div>
+  <div class="metaFooter">
+      <div class="copyright">Copyright &copy; 2018. All Rights Reserved.</div>
+      <div class="designAndDev">Designed and Developed by <a href="https://www.linkedin.com/in/sagar-adepu-309b44145/">Sagar Adepu</a></div>
+  </div>
+
+</footer>
+<!-- -------------------------------------------/footer-------------------------------------- -->
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
